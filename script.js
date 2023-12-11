@@ -7,7 +7,7 @@ let btn=document.getElementById("incrementBtn");
 
 
 	let newCounter=parseInt(counter)+1;
-	counter.textContent=newCounter;
+	counter.value=newCounter;
 	
 	
 	
