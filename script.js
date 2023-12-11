@@ -2,13 +2,13 @@
 
 function incrementFun() {
 	let counter=document.getElementById("counter");
-	let counterValue=counter.value;
+	let counterValue=counter.textContent;
 	
-	            alert("Un-incremented value: " + counter);
+	            alert("Un-incremented value: " + counterValue);
 
 
-	let newCounter=parseInt(counter)+1;
-	counter.value=newCounter;
+	let newCounter=parseInt(counterValue)+1;
+	counterValue.value=newCounter;
 	
 	
 	
