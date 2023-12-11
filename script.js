@@ -1,8 +1,9 @@
 //your JS code here. If required.
 
 function incrementFun() {
-	let counter=document.getElementById("counter").textContent;
-let btn=document.getElementById("incrementBtn");
+	let counter=document.getElementById("counter");
+	let counterValue=counter.value;
+	
 	            alert("Un-incremented value: " + counter);
 
 
