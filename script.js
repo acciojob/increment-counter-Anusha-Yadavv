@@ -5,8 +5,9 @@ let buttonElement=document.getElementById("incrementBtn");
 function incrementFun() {
 	buttonElement.style.backgroundColor="blue";
 	// counter++;
+	counter+=1
 	
-	pElement.innerText=counter+1;
+	pElement.innerText=counter;
 	alert(`${counter}`)
 	
 }
