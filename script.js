@@ -6,7 +6,7 @@ function incrementFun() {
 	buttonElement.style.backgroundColor="blue";
 	counter++;
 	pElement.innerText=counter.toString();
-	alert(`${counter++}`)
+	alert(`${counter}`)
 	
 }
 
