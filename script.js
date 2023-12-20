@@ -7,7 +7,7 @@ function incrementFun() {
 	// counter++;
 	counter+=1
 	
-	pElement.innerText=counter;
+	pElement.innerText=`${counter}`;
 	alert(`${counter}`)
 	
 }
