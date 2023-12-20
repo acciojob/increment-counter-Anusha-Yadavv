@@ -7,8 +7,8 @@ function incrementFun() {
 	// counter++;
 	counter+=1
 	
-	pElement.innerText=counter.toString();
-	alert(`${counter.toString()}`)
+	pElement.innerText=counter;
+	alert(`${counter}`)
 	
 }
 
